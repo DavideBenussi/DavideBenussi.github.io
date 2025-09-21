@@ -24,8 +24,18 @@ nav a:hover {
   color: #007acc;
 }
 
-h1, h2 {
+h1 {
   color: #222;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #007acc; /* a soft academic blue */
+}
+
+ul {
+  padding-left: 20px;
+  list-style-type: "– "; /* en-dash instead of bullets */
 }
 
 footer {
