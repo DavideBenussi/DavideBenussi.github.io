@@ -4,7 +4,7 @@ body {
   margin: auto;
   padding: 20px;
   line-height: 1.6;
-  background-color: #d0d0d0;
+  background-color: #eeeeee; /* light neutral gray */
   color: #333;
 }
 
@@ -61,7 +61,7 @@ ul {
 section {
   margin-top: 40px;
   padding: 20px;
-  background-color: #ffffff;
+  background-color: #fafafa; /* almost white */
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
