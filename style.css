@@ -80,9 +80,9 @@ section h2 {
   color: #555;
 }
 
+.site-title, 
 .orcid {
   text-align: center;
-  margin-top: 6px;
 }
 
 .orcid img {
