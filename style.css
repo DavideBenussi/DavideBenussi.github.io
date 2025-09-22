@@ -72,6 +72,30 @@ section h2 {
 }
 
 
+.subtitle {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-top: 5px;
+  color: #555;
+}
+
+.orcid {
+  text-align: center;
+  margin-top: 6px;
+}
+
+.orcid img {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.2s ease;
+}
+
+.orcid img:hover {
+  transform: scale(1.2);
+}
+
+
 footer {
   text-align: center;
   margin-top: 50px;
