@@ -2,56 +2,80 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Davide Benussi</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <nav>
-      <a href="index.html">Home</a>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="active">Home</a>
       <a href="publications.html">Publications</a>
       <a href="other.html">Other</a>
       <a href="contacts.html">Contacts</a>
     </nav>
   </header>
 
-<main>
-  <h1 class="site-title">Davide Benussi</h1>
-  <div class="orcid">
-    <a href="https://orcid.org/0009-0003-5848-1177" target="_blank" rel="noopener noreferrer">
-      <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD">
-    </a>
-  </div>
-  <p>I am a <b>PhD student</b> at the Department of Statistical Sciences, University of Padova (Italy). Welcome to my personal homepage!</p>
-</main>
+  <main class="container">
+    <section class="hero">
+      <h1>Davide Benussi</h1>
 
-<section>
-    <h2>📖 Research Interests</h2>
-    <p>I am particularly interested in the  <b>theory and methods of statistical inference</b>. My main topics of interest include:</p>
-    <ul>
-      <li>Likelihood inference</li>
-      <li>Likelihood asymptotics</li>
-      <li>Inference in the presence of nuisance parameters</li>
-      <li>Bias reduction methods</li>
-      <li>Inference in high-dimensional regression models</li>
-      <li>Post-selection inference</li>
-    </ul>
-</section>
+      <a class="orcid" href="https://orcid.org/0009-0003-5848-1177" target="_blank" rel="noopener noreferrer">
+        <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD">
+        ORCID
+      </a>
 
-<section>
-  <h2>👤 Biography</h2>
-  <p>
-    I obtained both my <b>Bachelor’s</b> and <b>Master’s</b> degrees in Statistics at the Department of Statistical Sciences, University of Padova. 
-    My Master’s thesis was supervised by Prof. <b>Alessandra Salvan</b> and Prof. <b>Nicola Sartori</b>, who are also my PhD supervisors. 
-    I have spent the second year of my PhD as a visiting student at the <b>University of Warwick</b>, under the supervision of Prof. <b>Ioannis Kosmidis</b>.
-    Our work has focused on methods for improved estimation and inference from parametric models and, in particular, their interplay with post-selection inference.
-  </p>
-</section>
+      <p class="lead">
+        PhD student at the Department of Statistical Sciences, University of Padova.
+      </p>
 
-  
+      <p>
+        Welcome to my personal homepage. My research focuses on statistical inference,
+        likelihood methods, and modern inferential challenges in complex models.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Research Interests</h2>
+      <p>
+        I am particularly interested in the theory and methods of statistical inference.
+        My main topics of interest include:
+      </p>
+
+      <ul class="tag-list">
+        <li>Likelihood inference</li>
+        <li>Likelihood asymptotics</li>
+        <li>Nuisance parameters</li>
+        <li>Bias reduction methods</li>
+        <li>High-dimensional regression</li>
+        <li>Post-selection inference</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Biography</h2>
+      <p>
+        I obtained both my Bachelor’s and Master’s degrees in Statistics at the
+        Department of Statistical Sciences, University of Padova. My Master’s thesis
+        was supervised by Prof. Alessandra Salvan and Prof. Nicola Sartori, who are also
+        my PhD supervisors.
+      </p>
+
+      <p>
+        I spent the second year of my PhD as a visiting student at the University of
+        Warwick, under the supervision of Prof. Ioannis Kosmidis. Our work has focused
+        on methods for improved estimation and inference from parametric models and,
+        in particular, their interplay with post-selection inference.
+      </p>
+    </section>
+  </main>
+
   <footer>
-    <p>© 2025 Davide Benussi</p>
+    <p>© 2026 Davide Benussi</p>
   </footer>
 </body>
 </html>
