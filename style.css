@@ -97,19 +97,48 @@ body {
   margin: 18px auto 0;
 }
 
-.orcid {
+.profile-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 22px;
+  flex-wrap: wrap;
+}
+
+.profile-link {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  margin-top: 18px;
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.8);
   color: var(--accent);
   text-decoration: none;
   font-weight: 600;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
-.orcid img {
-  width: 20px;
-  height: 20px;
+.profile-link:hover {
+  color: var(--accent-dark);
+  background: rgba(37, 99, 235, 0.06);
+  border-color: rgba(37, 99, 235, 0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+}
+
+.profile-link img,
+.profile-link svg {
+  width: 19px;
+  height: 19px;
+  flex-shrink: 0;
 }
 
 .card {
